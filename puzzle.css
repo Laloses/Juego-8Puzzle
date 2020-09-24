@@ -1,0 +1,43 @@
+#fechaN{
+    width: auto;
+    }
+#formulario{
+    width: 200px;
+    border-color: aqua;
+    align-content: center;
+    align-self: center;
+    font-size: auto;
+    text-align: center;
+}
+#parrafo{
+    color: yellow;
+}
+body{
+    background-color: darkslateblue;
+    background-image: radial-gradient(circle,red 30%,blue 80%);
+}
+h1{
+    text-align: auto;
+    color: aqua;
+    font-size: 50px;
+}
+input{
+    width: 200px; 
+    font-size: 20px;
+    color: grey;
+    border: 2px green;
+    border-style: double;
+    padding: 2px;
+}
+#Confirmar{
+    width: auto;
+    border: white;
+    border-radius: 5px;
+    color: black;
+}
+#contenido{
+    text-align: center;
+}
+#puzzle{
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title> 8 Puzzle</title>
+<link rel="stylesheet" href="puzzle.css" type="text/css">
+<script type="text/javascript" src="puzzle.js"></script>
+</head>
+<body *onload="revolver()">
+<center><span style="color:blue; font-size: 100px; padding: 0;">8</span> <span style="color:yellow; font-size: 100px; padding: 0;">Puzzle</span>
+    
+<table id="contenido"><tr>
+    <td><table id="puzzle" onclick="iniciarJuego()">
+    <tr>
+    <td>
+        <button id="b0" class="btn btn-default" onclick="seleccion2(this.id)" style="width:100px; height:100px;font-size: 30px;color:#3377CC;">1</button> 
+    </td>
+    <td>
+        <button id="b1" class="btn btn-default" onclick="seleccion2(this.id)" style="width:100px; height:100px;font-size: 30px;color:#3377CC;">2</button> 
+    </td>
+    <td>
+        <button id="b2" class="btn btn-default" onclick="seleccion2(this.id)" style="width:100px; height:100px;font-size: 30px;color:#3377CC;">3</button><br/>
+    </td>
+    </tr>
+    <tr>
+    <td>
+        <button id="b3" class="btn btn-default" onclick="seleccion2(this.id)" style="width:100px; height:100px;font-size: 30px;color:#3377CC;">4</button> 
+    </td>
+    <td>
+         <button id="b4" class="btn btn-default" onclick="seleccion2(this.id)" style="width:100px; height:100px;font-size: 30px;color:#3377CC;">5</button> 
+    </td>
+    <td>
+        <button id="b5" class="btn btn-default" onclick="seleccion2(this.id)" style="width:100px; height:100px;font-size: 30px;color:#3377CC;">6</button>
+        <br />
+    </td>
+    </tr>
+    <tr>
+    <td>
+        <button id="b6" class="btn btn-default" onclick="seleccion2(this.id)" style="width:100px; height:100px;font-size: 30px;color:#3377CC;">7</button> 
+    </td>
+    <td>
+        <button id="b7"  class="btn btn-default" onclick="seleccion2(this.id)" style="width:100px; height:100px;font-size: 30px;color:#3377CC;">8</button> 
+    </td>
+    <td>
+         <button id="b8" class="btn btn-default" onclick="seleccion2(this.id)" style="width:100px; height:100px;font-size: 30px;color:#3377CC;"> </button>
+    </td>
+    </tr>
+</table></td>
+    <td>
+    <button class="btn btn-default" style="width:200px; height:50px;font-size: 20px;color:#fc4f3f;" onclick="revolver()">Revolver</button>
+    <button class="btn btn-default" style="width:200px; height:50px;font-size: 20px; color:#fc4f3f;" onclick="finalizarJuego()">Finalizar</button><br>
+    <button onclik="recarga()">Ordenar</button><br> 
+    <iframe id="if1" src="about:blank" width=300 height=80 frameBorder="0"></iframe>
+    <iframe id="if2" src="about:blank" width=300 height=80 frameBorder="0"></iframe>
+    </td>
+</tr></table>
+</center>
+</body>
+</html>
